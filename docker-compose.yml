@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+
+    application:
+        container_name: application-challenge
+        restart: always
+        build: .
+        ports:
+            - 8080:8080
